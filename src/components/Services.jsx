@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Services.css";
 import Megaphone from "../assets/services/Megaphone.png";
-import Camera from "../assets/services/Camera2.png";
+import Camera from "../assets/services/Camera.png";
 import Wallet from "../assets/services/Wallet.png";
 import Bulb from "../assets/services/Bulb.png";
 import Music from "../assets/services/Music.png";
