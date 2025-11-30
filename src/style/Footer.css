@@ -1,0 +1,166 @@
+.footer {
+  padding: 130px 0 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer h2 {
+  color: #c5c5c5;
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.footer-logo {
+  width: 886.6467937851px;
+  height: 886.6467937851px;
+}
+
+.footer-social {
+  width: auto;
+  background: #d5d5d5;
+  padding: 25px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social span,
+.footer-social p {
+  color: #6f6f6f;
+  font-size: 16px;
+}
+
+.icons {
+  display: flex;
+  gap: 50px;
+}
+
+.social-icon {
+  width: 48px;
+  height: 48px;
+  opacity: 0.75;
+  transition: 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  right: -150px;
+  top: 150px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 16px solid #d7b335;
+  opacity: 0.38;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding-top: 100px;
+  }
+
+  .footer h2 {
+    font-size: 48px;
+  }
+
+  .footer-logo {
+    width: 600px;
+    height: 600px;
+  }
+
+  .footer-social {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 70px;
+  }
+
+  .footer h2 {
+    font-size: 36px;
+  }
+
+  .footer-logo {
+    width: 420px;
+    height: 420px;
+  }
+
+  .footer-social {
+    padding: 18px 20px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .footer-social span,
+  .footer-social p {
+    font-size: 14px;
+  }
+
+  .icons {
+    gap: 24px;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+  }
+
+  .footer::before {
+    right: -80px;
+    top: 120px;
+    width: 200px;
+    height: 200px;
+    border-width: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding-top: 50px;
+  }
+
+  .footer h2 {
+    font-size: 28px;
+  }
+
+  .footer-logo {
+    width: 320px;
+    height: 320px;
+  }
+
+  .footer-social {
+    padding: 14px 16px;
+  }
+
+  .footer-social span,
+  .footer-social p {
+    font-size: 13px;
+  }
+
+  .social-icon {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer::before {
+    right: -140px;
+    top: 120px;
+    width: 200px;
+    height: 200px;
+    border-width: 12px;
+  }
+}
