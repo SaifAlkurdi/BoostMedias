@@ -1,5 +1,6 @@
 {
   "name": "boost_media",
+  "homepage": "https://saifalkurdi.github.io/BoostMedias",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
