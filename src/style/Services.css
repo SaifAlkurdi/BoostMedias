@@ -47,14 +47,14 @@
 }
 
 .service-card h3 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
   color: #000;
 }
 
 .service-card p {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
   color: #6f6d6d;
 }
@@ -79,11 +79,13 @@
     height: 120px;
   }
 
-  .service-card p {
-    font-size: 15px;
+  .service-card h3 {
+    font-size: 17px;
   }
-}
-@media (max-width: 900px) {
+
+  .service-card p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -114,11 +116,11 @@
   }
 
   .service-card h3 {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .service-card p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -139,7 +141,7 @@
 
   .service-card {
     width: 90%;
-    max-width: 320px;
+    max-width: 270px;
     padding: 24px 18px 50px;
     margin: 0 auto;
   }
@@ -151,11 +153,11 @@
   }
 
   .service-card h3 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .service-card p {
-    font-size: 13px;
+    font-size: 17px;
   }
 }
 

@@ -1,6 +1,5 @@
 import "../style/Footer.css";
 import logo from "../assets/logo/Boost_Footer.png";
-
 import instagram from "../assets/icons/Instagram_icon.png";
 import facebook from "../assets/icons/Facebook_icon.png";
 import whatsapp from "../assets/icons/Whatsapp_icon.png";
@@ -19,7 +18,7 @@ export default function Footer({ lang }) {
         <span>{t.city}</span>
         <div className="icons">
           <a
-            href="https://instagram.com/boost.media"
+            href="https://www.instagram.com/boost.media.ch/?igsh=amthMWt6anY0cjd4"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,7 +34,7 @@ export default function Footer({ lang }) {
           </a>
 
           <a
-            href="https://facebook.com/boost.media"
+            href="https://www.instagram.com/boost.media.jo/?igsh=MWdubHRlMjdxbjRsYQ%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -6,6 +6,7 @@ import Location from "./components/Location";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
 import "./App.css";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Services lang={lang} />
       <Contact lang={lang} />
       <Footer lang={lang} />
+      <BackToTop />
     </div>
   );
 }
