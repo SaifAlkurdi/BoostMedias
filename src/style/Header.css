@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
 }
-/* ---------- Image block ---------- */
 .black-box {
   position: relative;
   width: 40em;
@@ -23,8 +22,6 @@
   display: block;
   object-fit: cover;
 }
-
-/* -------------------------------------------------------------------------------------- */
 
 .hero-bg {
   margin-top: 8em;
@@ -61,8 +58,6 @@
   padding: clamp(24px, 4vw, 60px);
   gap: clamp(20px, 4vw, 60px);
 }
-
-/* ---------- Content ---------- */
 
 .hero-content {
   max-width: 65em;
@@ -112,19 +107,10 @@
   transform: translateY(5px);
 }
 
-/* .hero-btn a {
-  color: #000;
-  text-decoration: none;
-} */
-
 .hero-btn {
   color: #000;
   text-decoration: none;
 }
-
-/* =========================
-   RTL (Arabic) overrides
-   ========================= */
 
 .hero-bg.rtl {
   direction: rtl;
@@ -155,11 +141,6 @@
   right: -650px;
   left: auto;
 }
-
-/* html[dir="rtl"] .hero-bg,
-html[dir="rtl"] .hero-inner {
-  direction: ltr;
-} */
 
 @media (max-width: 1618px) {
   .hero-bg::before {

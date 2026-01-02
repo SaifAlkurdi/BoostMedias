@@ -58,10 +58,6 @@ html[dir="rtl"] .location {
   margin: 0 125px 18px 0;
 }
 
-/* =========================
-   Responsive Location
-   ========================= */
-
 @media (max-width: 1024px) {
   .location-inner {
     padding: 70px 0 70px 90px;

@@ -27,20 +27,25 @@ export default function Navbar({ lang, toggleLang }) {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  const handleLinkClick = () => {
+  const closeAllMenus = () => {
     setIsOpen(false);
     setIsLangDropdownOpen(false);
   };
 
   const scrollToTop = (e) => {
     e.preventDefault();
-    handleLinkClick();
+    closeAllMenus();
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
+  // ✅ IMPORTANT: close the mobile menu after choosing a language
   const handleLangChange = (newLang) => {
     if (newLang !== lang) toggleLang(newLang);
-    setIsLangDropdownOpen(false);
+    closeAllMenus(); // closes dropdown + burger menu (mobile)
+  };
+
+  const handleLinkClick = () => {
+    closeAllMenus();
   };
 
   return (
@@ -87,10 +92,17 @@ export default function Navbar({ lang, toggleLang }) {
               className={`navbar__lang-dropdown ${
                 isLangDropdownOpen ? "open" : ""
               }`}
+              role="menu"
             >
-              <li onClick={() => handleLangChange("en")}>English</li>
-              <li onClick={() => handleLangChange("ar")}>Arabic</li>
-              <li onClick={() => handleLangChange("fr")}>French</li>
+              <li role="menuitem" onClick={() => handleLangChange("en")}>
+                English
+              </li>
+              <li role="menuitem" onClick={() => handleLangChange("ar")}>
+                Arabic
+              </li>
+              <li role="menuitem" onClick={() => handleLangChange("fr")}>
+                French
+              </li>
             </ul>
           </div>
         </nav>
@@ -98,8 +110,12 @@ export default function Navbar({ lang, toggleLang }) {
         <button
           type="button"
           className={`navbar__burger ${isOpen ? "navbar__burger--open" : ""}`}
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={() => {
+            setIsOpen((v) => !v);
+            setIsLangDropdownOpen(false);
+          }}
           aria-label="Toggle menu"
+          aria-expanded={isOpen}
         >
           <span />
           <span />

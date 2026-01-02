@@ -8,15 +8,10 @@ export default function Header({ lang }) {
 
   return (
     <section className={`hero-bg ${lang === "ar" ? "rtl" : ""}`}>
-      {/* // <section className={`hero-bg ${lang === "ar" ? "ar" : ""}`}> */}
       <div className="hero-inner">
         <div className="hero-content">
           <h1>{t.title}</h1>
           <p>{t.body}</p>
-          {/* <button className="hero-btn">
-            <a href="#contact">{t.btn}</a>
-          </button> */}
-
           <a className="hero-btn" href="#contact">
             {t.btn}
           </a>

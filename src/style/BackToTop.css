@@ -8,8 +8,8 @@ html {
   right: 2rem;
   z-index: 5000;
 
-  width: 56px;
-  height: 56px;
+  width: 70px;
+  height: 70px;
 
   display: inline-flex;
   align-items: center;
@@ -28,7 +28,7 @@ html {
 
 .back-to-top span {
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 3rem;
   line-height: 1;
   transition: 0.2s ease-out;
 }
@@ -52,39 +52,39 @@ html {
 
 @media (max-width: 1024px) {
   .back-to-top {
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
     bottom: 1.6rem;
     right: 1.6rem;
   }
 
   .back-to-top span {
-    font-size: 2rem;
+    font-size: 2.75rem;
   }
 }
 
 @media (max-width: 768px) {
   .back-to-top {
-    width: 40px;
-    height: 40px;
-    bottom: 1.4rem;
+    width: 60px;
+    height: 60px;
+    bottom: 1.5rem;
     right: 1.4rem;
   }
 
   .back-to-top span {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
   }
 }
 
 @media (max-width: 480px) {
   .back-to-top {
-    width: 35px;
-    height: 35px;
+    width: 55px;
+    height: 55px;
     bottom: 1.1rem;
     right: 1.1rem;
   }
 
   .back-to-top span {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
   }
 }
