@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/BoostMedias/static/css/main.bbbf9fc3.css",
-    "main.js": "/BoostMedias/static/js/main.bea3d3d5.js",
+    "main.css": "/BoostMedias/static/css/main.cc631670.css",
+    "main.js": "/BoostMedias/static/js/main.b1e07a4e.js",
     "static/js/453.ab92654c.chunk.js": "/BoostMedias/static/js/453.ab92654c.chunk.js",
-    "static/media/Boost_Logo.png": "/BoostMedias/static/media/Boost_Logo.caec467b2750441b48da.png",
+    "static/media/Boostmedia_logo.png": "/BoostMedias/static/media/Boostmedia_logo.cebc5775dab7b919c184.png",
+    "static/media/Person.png": "/BoostMedias/static/media/Person.009f5d90788281de7597.png",
     "static/media/Camera.png": "/BoostMedias/static/media/Camera.16f1938fa4fd333cdab3.png",
+    "static/media/Cover.png": "/BoostMedias/static/media/Cover.03d1ec06240ba11bf18b.png",
     "static/media/Boost_Footer.png": "/BoostMedias/static/media/Boost_Footer.f83b2557420de53396b3.png",
     "static/media/Wallet.png": "/BoostMedias/static/media/Wallet.8dde025197cf220b0088.png",
     "static/media/Megaphone.png": "/BoostMedias/static/media/Megaphone.970e48b08363948043f7.png",
@@ -12,12 +14,12 @@
     "static/media/Bulb.png": "/BoostMedias/static/media/Bulb.4954b0124416d1732186.png",
     "static/media/Music.png": "/BoostMedias/static/media/Music.d31f88966a31d577619b.png",
     "index.html": "/BoostMedias/index.html",
-    "main.bbbf9fc3.css.map": "/BoostMedias/static/css/main.bbbf9fc3.css.map",
-    "main.bea3d3d5.js.map": "/BoostMedias/static/js/main.bea3d3d5.js.map",
+    "main.cc631670.css.map": "/BoostMedias/static/css/main.cc631670.css.map",
+    "main.b1e07a4e.js.map": "/BoostMedias/static/js/main.b1e07a4e.js.map",
     "453.ab92654c.chunk.js.map": "/BoostMedias/static/js/453.ab92654c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbbf9fc3.css",
-    "static/js/main.bea3d3d5.js"
+    "static/css/main.cc631670.css",
+    "static/js/main.b1e07a4e.js"
   ]
 }
