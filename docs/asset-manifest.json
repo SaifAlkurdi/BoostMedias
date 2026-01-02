@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BoostMedias/static/css/main.cc631670.css",
-    "main.js": "/BoostMedias/static/js/main.b1e07a4e.js",
+    "main.css": "/BoostMedias/static/css/main.d261fb23.css",
+    "main.js": "/BoostMedias/static/js/main.c11bfe01.js",
     "static/js/453.ab92654c.chunk.js": "/BoostMedias/static/js/453.ab92654c.chunk.js",
     "static/media/Boostmedia_logo.png": "/BoostMedias/static/media/Boostmedia_logo.cebc5775dab7b919c184.png",
     "static/media/Person.png": "/BoostMedias/static/media/Person.009f5d90788281de7597.png",
@@ -14,12 +14,12 @@
     "static/media/Bulb.png": "/BoostMedias/static/media/Bulb.4954b0124416d1732186.png",
     "static/media/Music.png": "/BoostMedias/static/media/Music.d31f88966a31d577619b.png",
     "index.html": "/BoostMedias/index.html",
-    "main.cc631670.css.map": "/BoostMedias/static/css/main.cc631670.css.map",
-    "main.b1e07a4e.js.map": "/BoostMedias/static/js/main.b1e07a4e.js.map",
+    "main.d261fb23.css.map": "/BoostMedias/static/css/main.d261fb23.css.map",
+    "main.c11bfe01.js.map": "/BoostMedias/static/js/main.c11bfe01.js.map",
     "453.ab92654c.chunk.js.map": "/BoostMedias/static/js/453.ab92654c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc631670.css",
-    "static/js/main.b1e07a4e.js"
+    "static/css/main.d261fb23.css",
+    "static/js/main.c11bfe01.js"
   ]
 }
