@@ -5,20 +5,26 @@ export default function BackToTop() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setShow(window.scrollY > 300); // show after 300px
-    };
-
-    window.addEventListener("scroll", handleScroll);
+    const handleScroll = () => setShow(window.scrollY > 300);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
 
   return (
     <>
       {show && (
-        <a href="#top" className="back-to-top">
+        <button
+          type="button"
+          className="back-to-top"
+          onClick={scrollToTop}
+          aria-label="Back to top"
+        >
           <span className="material-icons">arrow_upward</span>
-        </a>
+        </button>
       )}
     </>
   );

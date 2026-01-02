@@ -2,25 +2,18 @@ import React from "react";
 import "../style/Location.css";
 import { translations } from "../i18n/translations";
 
-export default function Location({ lang }) {
-  const t = translations[lang].location;
+export default function Location({ lang = "en" }) {
+  const t = translations[lang]?.location || translations.en.location;
+
   return (
-    <>
-      <section
-        id="location"
-        className={`location ${lang === "fr" ? "fr" : "en"}`}
-      >
-        <h2>{t.title}</h2>
-        <p>{t.city}</p>
-        <a
-          href="https://maps.app.goo.gl/FR6CWBU98iuWTmzh8"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="location-btn"
-        >
-          {t.button}
-        </a>
-      </section>
-    </>
+    <section className={`location ${lang === "ar" ? "ar" : ""}`} id="location">
+      <div className="location-inner">
+        <div className="location-text">
+          <h2>{t.title}</h2>
+          <p>{t.city}</p>
+          <p>{t.secCity}</p>
+        </div>
+      </div>
+    </section>
   );
 }

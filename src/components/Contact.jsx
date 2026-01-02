@@ -5,32 +5,32 @@ import phone from "../assets/contact/phone.png";
 import at from "../assets/contact/at.png";
 import { translations } from "../i18n/translations";
 
-export default function Contact({ lang }) {
-  const t = translations[lang].contact;
+export default function Contact({ lang = "en" }) {
+  const t = translations[lang]?.contact || translations.en.contact;
 
   return (
-    <section className="contact" id="contact">
+    <section className={`contact ${lang}`} id="contact">
       <h2>{t.title}</h2>
 
       <div className="contact-box">
         <div className="icon-wrapper">
-          <img src={mail} alt="" />
+          <img src={mail} alt="email" />
         </div>
-        <p>{t.email}</p>
+        <p className="contact-value contact-email">{t.email}</p>
       </div>
 
       <div className="contact-box">
         <div className="icon-wrapper">
-          <img src={phone} alt="" />
+          <img src={phone} alt="phone" />
         </div>
-        <p>{t.phone}</p>
+        <p className="contact-value contact-phone">{t.phone}</p>
       </div>
 
       <div className="contact-box">
         <div className="icon-wrapper">
-          <img src={at} alt="" />
+          <img src={at} alt="instagram" />
         </div>
-        <p>{t.instagram}</p>
+        <p className="contact-value contact-instagram">{t.instagram}</p>
       </div>
     </section>
   );

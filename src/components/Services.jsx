@@ -8,14 +8,14 @@ import Music from "../assets/services/Music.png";
 import Rocket from "../assets/services/Rocket.png";
 import { translations } from "../i18n/translations";
 
-export default function Services({ lang }) {
-  const t = translations[lang].services;
+export default function Services({ lang = "en" }) {
+  const t = translations[lang]?.services || translations.en.services;
   const items = t.items;
 
   const icons = [Megaphone, Camera, Wallet, Bulb, Music, Rocket];
 
   return (
-    <section className="services" id="services">
+    <section className={`services ${lang === "ar" ? "ar" : ""}`} id="services">
       <h2>{t.title}</h2>
 
       <div className="services-grid">

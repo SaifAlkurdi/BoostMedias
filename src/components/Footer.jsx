@@ -10,10 +10,6 @@ export default function Footer({ lang }) {
 
   return (
     <footer className="footer">
-      <h2>{t.title}</h2>
-
-      <img src={logo} className="footer-logo" alt="footer logo" />
-
       <div className="footer-social">
         <span>{t.city}</span>
         <div className="icons">

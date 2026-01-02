@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
@@ -10,17 +10,10 @@ import BackToTop from "./components/BackToTop";
 import "./App.css";
 
 function App() {
-  const [lang, setLang] = useState(() => {
-    const savedLang = localStorage.getItem("lang");
-    return savedLang ? savedLang : "en";
-  });
+  const [lang, setLang] = useState("en");
 
-  useEffect(() => {
-    localStorage.setItem("lang", lang);
-  }, [lang]);
-
-  const toggleLang = () => {
-    setLang((prev) => (prev === "en" ? "fr" : "en"));
+  const toggleLang = (newLang) => {
+    setLang(newLang);
   };
 
   return (
