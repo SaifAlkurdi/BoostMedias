@@ -1,5 +1,4 @@
 import "../style/Footer.css";
-import logo from "../assets/logo/Boost_Footer.png";
 import instagram from "../assets/icons/Instagram_icon.png";
 import facebook from "../assets/icons/Facebook_icon.png";
 import whatsapp from "../assets/icons/Whatsapp_icon.png";

@@ -46,15 +46,12 @@
 .hero-inner {
   position: relative;
   z-index: 1;
-
   min-height: calc(100vh - 7em);
   height: auto;
-
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 520px);
   align-items: center;
   justify-content: space-between;
-
   padding: clamp(24px, 4vw, 60px);
   gap: clamp(20px, 4vw, 60px);
 }
@@ -65,7 +62,7 @@
 
 .hero-content h1 {
   margin: -145px 0 0 92px;
-  font-size: clamp(36px, 5vw, 80px);
+  font-size: clamp(36px, 5vw, 78px);
   font-weight: 900;
   line-height: 1.04;
   letter-spacing: -0.5px;
@@ -133,7 +130,7 @@
 }
 
 .hero-bg.rtl .black-box {
-  margin: 25px -75px 0 0;
+  margin: 25px -60px 0 0;
   padding: 2.25em 2.25em 1.1em 0;
 }
 
@@ -171,6 +168,7 @@
     width: 1500px;
   }
 }
+
 @media (max-width: 1415px) {
   .hero-bg::before {
     width: 1450px;

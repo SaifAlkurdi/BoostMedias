@@ -10,8 +10,32 @@ export default function Location({ lang = "en" }) {
       <div className="location-inner">
         <div className="location-text">
           <h2>{t.title}</h2>
-          <p>{t.city}</p>
-          <p>{t.secCity}</p>
+          <div className="city-btns">
+            <a
+              type="button"
+              className="city-btn"
+              href="https://maps.app.goo.gl/M4yo4sFykdDqjyif7?g_st=aw"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                textAlign: "center",
+              }}
+            >
+              {t.city}
+            </a>
+            <a
+              type="button"
+              className="city-btn"
+              href="https://maps.app.goo.gl/P7Xipow9YB7Kc36g8"
+              style={{
+                textDecoration: "none",
+                color: "black",
+                textAlign: "center",
+              }}
+            >
+              {t.secCity}
+            </a>
+          </div>
         </div>
       </div>
     </section>
