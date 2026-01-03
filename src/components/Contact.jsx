@@ -23,7 +23,14 @@ export default function Contact({ lang = "en" }) {
         <div className="icon-wrapper">
           <img src={phone} alt="phone" />
         </div>
-        <p className="contact-value contact-phone">{t.phone}</p>
+        <p className="contact-value contact-phone">{t.jorPhone}</p>
+      </div>
+
+      <div className="contact-box">
+        <div className="icon-wrapper">
+          <img src={phone} alt="phone" />
+        </div>
+        <p className="contact-value contact-phone">{t.swPhone}</p>
       </div>
 
       <div className="contact-box">

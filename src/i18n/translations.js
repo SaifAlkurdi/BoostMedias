@@ -59,7 +59,8 @@ Our goal is to turn your social media pages into a true growth machine.`,
     contact: {
       title: "Contact us",
       email: "Boost.media.ch@gmail.com",
-      phone: "+41766172176",
+      swPhone: "+41 76 617 21 76",
+      jorPhone: "+962 79 555 5555",
       instagram: "@BOOST.MEDIA.CH",
     },
 
@@ -129,7 +130,8 @@ Our goal is to turn your social media pages into a true growth machine.`,
     contact: {
       title: "اتصل بنا",
       email: "Boost.media.ch@gmail.com",
-      phone: "+41766172176",
+      swPhone: "+41 76 617 21 76",
+      jorPhone: "+962 79 555 5555",
       instagram: "@BOOST.MEDIA.CH",
     },
 
@@ -199,7 +201,8 @@ Notre objectif est de transformer vos pages sur les réseaux sociaux en une vér
     contact: {
       title: "Contactez-nous",
       email: "Boost.media.ch@gmail.com",
-      phone: "+41766172176",
+      swPhone: "+41 76 617 21 76",
+      jorPhone: "+962 79 555 5555",
       instagram: "@BOOST.MEDIA.CH",
     },
 
